@@ -1,0 +1,75 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+          "plantname": "Autumn Olive",
+          "date": "10-25-2024"
+      },
+      "geometry": {
+        "coordinates": [
+          -81.9576872728738,
+          34.98224497150565
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+          "plantname": "Chinese Privet",
+          "date": "10-25-2024"
+      },
+      "geometry": {
+        "coordinates": [
+          -81.95705273899108,
+          34.9819613870806
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+          "plantname": "Autumn Olive",
+          "date": "10-25-2024"
+      },
+      "geometry": {
+        "coordinates": [
+          -81.95739887592505,
+          34.98177232137772
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+          "plantname": "Chinese Privet",
+          "date": "10-25-2024"
+      },
+      "geometry": {
+        "coordinates": [
+          -81.95641818261083,
+          34.981488726859936
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+          "plantname": "Autumn Olive",
+          "date": "10-25-2024"
+      },
+      "geometry": {
+        "coordinates": [
+          -81.95707198533026,
+          34.981346918065015
+        ],
+        "type": "Point"
+      }
+    }
+  ]
+}

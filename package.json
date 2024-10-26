@@ -1,0 +1,14 @@
+{
+  "name": "conservation-app",
+  "version": "0.0.1",
+  "description": "Proof of concept of a client-server app to facilitate tracking progress in clearing an area of invasive wildlife.",
+  "main": "start.bat",
+  "scripts": {
+    "test": "test"
+  },
+  "author": "Arthur Petroff",
+  "license": "MIT",
+  "dependencies": {
+    "conservation-app": "file:"
+  }
+}
