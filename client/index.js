@@ -59,8 +59,8 @@ async function renderData(data, map) {
         let latlng = new google.maps.LatLng(lat, lng);
         
         const content = document.createElement('div');
-        content.innerHTML = "<h2>" + feature.properties.plantname + "</h2>"
-                            + "<div>date: " + feature.properties.date + "</div>";
+        content.innerHTML = "<i>invasive removal:</i><h2>" + feature.properties.plantname + "</h2>"
+                            + "<div>removal date: " + feature.properties.date + "</div>";
 
         const dot = new google.maps.Circle({
             strokeColor: "#FF0000",
@@ -91,7 +91,7 @@ async function renderData(data, map) {
  * @returns {Popup}
  */
 function initPopups() {
-    //class 
+    //credit for class given to https://developers.google.com/maps/documentation/javascript/examples/overlay-popup
     class Popup extends google.maps.OverlayView {
         position;
         containerDiv;
@@ -100,7 +100,6 @@ function initPopups() {
             this.position = position;
             content.classList.add("popup-bubble");
 
-    
             // This zero-height div is positioned at the bottom of the bubble.
             const bubbleAnchor = document.createElement("div");
     

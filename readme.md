@@ -12,4 +12,6 @@ Streamlined interface for field work, identifying and tracking individual specie
 
 ### Running
 
-- Run `start.bat`.
+- To view data visualization proof-of-concept, run `start.bat`.
+- Server proof-of-concept in development.
+- Client application proof-of-concept in development.
